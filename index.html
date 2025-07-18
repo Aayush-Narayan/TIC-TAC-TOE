@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>TIC-TAC-TOE</h1>
+    <br />
+    <div class="Chance"></div>
+    <div id="table">
+      <table>
+        <tr>
+          <td id="t0"></td>
+          <td id="t1"></td>
+          <td id="t2"></td>
+        </tr>
+        <tr>
+          <td id="t3"></td>
+          <td id="t4"></td>
+          <td id="t5"></td>
+        </tr>
+        <tr>
+          <td id="t6"></td>
+          <td id="t7"></td>
+          <td id="t8"></td>
+        </tr>
+      </table>
+      <div id="reset">
+        <button class="button">
+          <div class="button-outer">
+            <div class="button-inner">
+              <span>Reset Board</span>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+    <!-- Winner Popup -->
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        <h2 id="popup-message"></h2>
+        <button id="popup-close">OK</button>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>
